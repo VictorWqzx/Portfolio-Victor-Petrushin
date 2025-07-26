@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Виктор — Front-end Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="preloader">
+        <span class="preloader-text">0%</span>
+    </div>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="#" class="logo">Portfolio Victor Petrushin</a>
+            <nav class="main-nav">
+                <a href="#projects">Проекты</a>
+                <a href="#about">Обо мне</a>
+                <a href="#contact" class="btn">Связаться</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="content">
+        <section class="hero container">
+            <h1>Виктор - это<br><span class="role-text">креативный кодер</span></h1>
+        </section>
+
+        <section id="projects" class="projects container">
+            <h2 class="section-title">Избранные проекты</h2>
+            
+            <div class="project-list">
+                
+                <!-- Проект 1 -->
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="images/мебель 1.png" alt="Скриншот проекта Bellissimo Mobili">
+                    </div>
+                    <div class="project-info">
+                        <h3>Сайт мебельной студии "Bellissimo Mobili"</h3>
+                        <p>Адаптивный лендинг с чистым и элегантным дизайном. Упор на качественную подачу контента и удобство для пользователя.</p>
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3 (Flexbox)</span>
+                            <span>JavaScript</span>
+                            <span>БЭМ</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://victorwqzx.github.io/bellisimo-site/" target="_blank" class="btn btn-primary">Смотреть Демо</a>
+                            <a href="https://github.com/VictorWqzx/bellisimo-site" target="_blank" class="btn btn-secondary">Код на GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Проект 2 -->
+                 <div class="project-item">
+                    <div class="project-image">
+                        <img src="images/питание 2.png" alt="Скриншот проекта NutriAI">
+                    </div>
+                    <div class="project-info">
+                        <h3>Лендинг для сервиса "NutriAI"</h3>
+                        <p>Промо-сайт для SaaS-платформы. Реализованы карточки преимуществ, понятная структура и секция с тарифными планами.</p>
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3 (Grid)</span>
+                            <span>Адаптивная верстка</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://victorwqzx.github.io/natureai-site/" target="_blank" class="btn btn-primary">Смотреть Демо</a>
+                            <a href="https://github.com/VictorWqzx/natureai-site" target="_blank" class="btn btn-secondary">Код на GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Проект 3 -->
+                 <div class="project-item">
+                    <div class="project-image">
+                        <img src="images/киберпанк 1.png" alt="Скриншот проекта IVA Systems">
+                    </div>
+                    <div class="project-info">
+                        <h3>Промо-сайт "IVA SYSTEMS"</h3>
+                        <p>Креативный лендинг в стиле киберпанк с использованием JavaScript для создания текстовых анимаций и технологичной атмосферы.</p>
+                        <div class="tech-stack">
+                            <span>HTML5 & CSS3</span>
+                            <span>JavaScript (ES6+)</span>
+                            <span>Анимации</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://victorwqzx.github.io/cyberpank-site/" target="_blank" class="btn btn-primary">Смотреть Демо</a>
+                            <a href="https://github.com/VictorWqzx/cyberpank-site" target="_blank" class="btn btn-secondary">Код на GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+<section id="about" class="about container">
+     <div class="about-content">
+        <div class="about-photo">
+            <img src="images/моя фотка.jpg" alt="Виктор Петрушин">
+        </div>
+        <div class="about-text">
+            <h2 class="section-title" style="text-align: left; margin-bottom: 20px;">Немного обо мне</h2>
+            <p>
+                Привет! Я начинающий frontend-разработчик. Мне нравится создавать живые и отзывчивые интерфейсы, превращая статичные макеты в цифровые продукты, которыми приятно пользоваться.
+            </p>
+            <p>
+                Владею HTML, CSS и JavaScript, постоянно изучаю новые технологии и ищу возможность применить свои навыки в реальных проектах, чтобы расти и развиваться в профессии.
+            </p>
+        </div>
+     </div>
+</section>
+        
+        <footer id="contact" class="main-footer container">
+            <h2>Давайте создадим что-то вместе</h2>
+            <a href="mailto:workgruop038@gmail.com" class="email-link">workgruop038@gmail.com</a>
+            <div class="social-links">
+                <a href="https://github.com/VictorWqzx" target="_blank">GitHub</a>
+                <a href="https://t.me/mashup1337" target="_blank">Telegram</a>
+                <a href="https://www.linkedin.com/in/victor-petrushin-b2097b327/" target="_blank">LinkedIn</a>
+            </div>
+        </footer>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
