@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (content) content.classList.add('loaded');
     }
 
-    // --- ЭФФЕКТ "ПРОЖЕКТОРА" ЗА МЫШЬЮ ---
+    //  ЭФФЕКТ "ПРОЖЕКТОРА" ЗА МЫШЬЮ 
     document.body.addEventListener('mousemove', e => {
         requestAnimationFrame(() => {
             document.body.style.setProperty('--x', `${e.clientX}px`);
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
     
-    // --- АНИМАЦИЯ СМЕНЫ ТЕКСТА ---
+    //  АНИМАЦИЯ СМЕНЫ ТЕКСТА 
     const roles = ["front-end developer", "UX/UI designer", "креативный кодер", "создатель интерфейсов"];
     const roleTextElement = document.querySelector('.role-text');
     
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 3000);
     }
 
-    // --- АНИМАЦИЯ ПОЯВЛЕНИЯ СЕКЦИЙ ПРИ СКРОЛЛЕ ---
+    //  АНИМАЦИЯ ПОЯВЛЕНИЯ СЕКЦИЙ ПРИ СКРОЛЛЕ 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
